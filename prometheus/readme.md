@@ -12,7 +12,7 @@
 
 ```yaml
 matchLabels:
-  kubernetes.io/metadata.name: default
+  kubernetes.io/metadata.name: default          # This targets monitoring in the default namespace.
 ```
 </pre>
 
