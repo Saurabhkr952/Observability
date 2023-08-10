@@ -9,7 +9,6 @@
 ---
 
 - Here in the promethus.yaml file
-
    <pre>
 ```yaml
 matchLabels:
