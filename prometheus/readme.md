@@ -6,13 +6,14 @@
 To scrape metrics, you'll need to set up three essential components:
 
 1. **Exporter Application**:
-   - This component exposes a `/metrics` endpoint.
+    This component exposes a `/metrics` endpoint.
 
 2. **Service**:
-   - For connecting to the exporter.
+    For connecting to the exporter.
+    It retrieves the metrics data exposed by the exporter.
 
-3. **ServiceMonitor**:
-   - It helps in locating and monitoring the services that need to be connected to the exporter.
+4. **ServiceMonitor**:
+    It helps in locating and monitoring the services that need to be connected to the exporter.
 
 By integrating these components, you can effectively scrape, retrieve, and monitor metrics data.
 
