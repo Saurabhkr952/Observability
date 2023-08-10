@@ -1,3 +1,5 @@
+## How to monitor any third party application in Kubernetes 
+![Screenshot_20230809-142927_YouTube ReVanced~2](https://github.com/Saurabhkr952/Observability/assets/32189783/5e74db64-72dc-42c4-a8fa-9e699cdca979)
 
 
 ## Service-Monitor 
