@@ -9,6 +9,10 @@
 ---
 
 - Here in the promethus.yaml file
-   matchLabels:
-     kubernetes.io/metadata.name:default
+   <pre>
+```yaml
+matchLabels:
+  kubernetes.io/metadata.name: default
+```
+</pre>
 ![custom](https://github.com/Saurabhkr952/Observability/assets/32189783/abb484d8-964f-45ac-9991-3ece97630b69)
