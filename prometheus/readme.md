@@ -8,8 +8,8 @@
 
 ---
 
-- Here in the promethus.yaml file
-   <pre>
+- The 'prometheus.yaml' available in this repository has labels:
+
 ```yaml
 matchLabels:
   kubernetes.io/metadata.name: default
