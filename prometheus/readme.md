@@ -8,7 +8,7 @@
 
 ---
 
-- The 'prometheus.yaml' available in this repository has labels:
+- The `prometheus.yaml` available in this repository has labels.
 
 ```yaml
 matchLabels:
