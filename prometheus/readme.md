@@ -29,8 +29,10 @@ By integrating these components, you can effectively scrape, retrieve, and monit
 
 ```yaml
 # The `prometheus.yaml` available in this repository has labels:
-matchLabels:
-  kubernetes.io/metadata.name: default     # This targets monitoring in the default namespace.
+
+serviceMonitorSelector:
+    matchLabels:
+      release: prometheus   
 ```
 
 ![custom](https://github.com/Saurabhkr952/Observability/assets/32189783/abb484d8-964f-45ac-9991-3ece97630b69)
