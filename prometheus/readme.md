@@ -36,3 +36,33 @@ serviceMonitorSelector:
 ```
 
 ![custom](https://github.com/Saurabhkr952/Observability/assets/32189783/abb484d8-964f-45ac-9991-3ece97630b69)
+
+
+**For my own reference**
+```yaml
+# prometheus.yaml
+
+serviceMonitorNamespaceSelector:
+  matchLabels:
+    monitoring: prometheus
+
+serviceMonitorSelector:
+  matchLabels:
+    component: main
+
+---
+
+# Apply these 'labels' to the namespace where serviceMonitor.yaml is deployed
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cadvisor
+  labels:
+    monitoring: prometheus
+
+---
+
+# Apply these labels to the serviceMonitor.yaml
+labels:
+  component: main
+```
