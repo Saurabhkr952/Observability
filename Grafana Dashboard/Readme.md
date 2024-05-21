@@ -1,3 +1,8 @@
+## Node exporter full
+
+1860
+
+
 ## Kubernetes Views Global Grafana Dashboard [Link](https://github.com/dotdc/grafana-dashboards-kubernetes/blob/master/dashboards/k8s-views-global.json)
 
 ![k8s-views-global](https://github.com/Saurabhkr952/Observability/assets/32189783/ba8f2dcc-c66c-4ff6-8279-21c64dd0209f)
