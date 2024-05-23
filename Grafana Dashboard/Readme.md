@@ -2,6 +2,9 @@
 
 1860
 
+## Kubernetes observability pods
+
+747
 
 ## Kubernetes Views Global Grafana Dashboard [Link](https://github.com/dotdc/grafana-dashboards-kubernetes/blob/master/dashboards/k8s-views-global.json)
 
